@@ -1,0 +1,15 @@
+name: NepheliaClearlagg
+main: Nepheliashop\Clearlagg\Main
+api: 5.0.0
+version: 0.1
+author: Nepheliashop
+website: https://discord.gg/pocketmine
+
+permissions:
+  nepheliashop.permissions.clearlag:
+    default: op
+
+commands:
+  clearlag:
+    description: "Clearlagg"
+    permission: "nepheliashop.permissions.clearlag"
